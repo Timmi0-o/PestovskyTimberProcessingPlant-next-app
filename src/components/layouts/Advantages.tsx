@@ -5,8 +5,6 @@ import { Section } from '../ui/Section'
 
 export const Advantages = () => {
 	const [isMore, setIsMore] = useState<number | null>(null)
-
-	console.log('isMore', isMore)
 	return (
 		<Section
 			bg='bg-[#111311]'

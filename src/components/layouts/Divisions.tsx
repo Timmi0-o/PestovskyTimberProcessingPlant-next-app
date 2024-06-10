@@ -6,13 +6,16 @@ import { Section } from '../ui/Section'
 
 export const Divisions = () => {
 	const [isMore, setIsMore] = useState<number | null>(null)
+
+	const [isDivision, setIsDivision] = useState<number>(0)
 	return (
 		<Section titlePosition='text-left' title='Выбери подразделение:'>
 			<div className='flex flex-wrap gap-[10px]'>
 				{divisions.map((division, i) => (
 					<div
+						onClick={() => setIsDivision(i)}
 						className={`flex items-center ${
-							i === 0 ? 'bg-[#999999] text-[#212121]' : 'text-[#fff]'
+							isDivision === i ? 'bg-[#999999] text-[#212121]' : 'text-[#fff]'
 						} rounded-[5px]  border-[3px]  border-[#999999] h-[30px] `}
 						key={i}
 					>
