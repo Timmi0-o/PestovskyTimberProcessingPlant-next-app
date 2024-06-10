@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --swiper-navigation-color: #ffffff;
+
+  --swiper-pagination-color: #ffffff;
+  --swiper-pagination-bullet-size: 15px;
+  --swiper-pagination-bullet-inactive-color: #888988;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 9px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
