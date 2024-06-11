@@ -6,7 +6,7 @@ export const AboutAs = () => {
 			<div className='flex flex-col gap-[35px]'>
 				{aboutInfo.map((info, i) => (
 					<div key={i} className='flex flex-col items-center text-center'>
-						<div className='flex justify-center items-center w-[80px] h-[70px] mb-[15px] bg-[#000000a7] rounded-[5px] border-[1px] border-[#B6FFBA] text-[#21A038] text-[24px] font-bold'>
+						<div className='flex justify-center items-center w-[80px] h-[70px] mb-[15px] bg-[#000000a7] rounded-[5px] border-[1px] border-[#B6FFBA] text-[#21A038] text-[24px] font-bold accentShadow'>
 							{info.title}
 						</div>
 						<p className='font-normal text-white leading-[20px]'>

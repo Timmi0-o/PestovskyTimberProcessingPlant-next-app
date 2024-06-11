@@ -6,6 +6,7 @@ interface SectionProps {
 	titlePosition?: string
 	weightCustom?: string
 	bg?: string
+	paddingCustom?: string
 }
 
 export const Section = ({
@@ -14,13 +15,14 @@ export const Section = ({
 	titlePosition,
 	weightCustom,
 	bg,
+	paddingCustom,
 }: SectionProps) => {
 	return (
 		<div className={`relative w-full ${bg ? bg : 'bg-[#212121]'} `}>
 			<div
 				className={`mx-auto flex flex-col gap-[35px] items-center ${
 					weightCustom ? weightCustom : 'w-[320px]'
-				} py-[45px]`}
+				} ${paddingCustom ? paddingCustom : 'py-[45px]'}`}
 			>
 				{title && (
 					<p

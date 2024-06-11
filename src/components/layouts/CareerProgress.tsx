@@ -7,7 +7,7 @@ import { Section } from '../ui/Section'
 
 export const CareerProgress = () => {
 	return (
-		<Section title='Карьерный рост'>
+		<Section bg='bg-[#111311]' title='Карьерный рост'>
 			<div className='flex flex-col w-full text-white gap-[35px]'>
 				<p className='leading-[20px]'>
 					Наша Компания является ярким примером, где достойные люди смело
