@@ -12,8 +12,10 @@ export const Header = () => {
 	useEffect(() => {
 		if (burgerMove !== '') {
 			setModalMove('ml-[0px]')
+			document.body.style.overflow = 'hidden'
 		} else {
 			setModalMove('ml-[-300px]')
+			document.body.style.overflow = ''
 		}
 		if (hasClickedOutside) {
 			setModalMove('ml-[-300px]')

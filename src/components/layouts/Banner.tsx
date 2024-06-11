@@ -104,11 +104,11 @@ export const Banner = () => {
 										onClick={() => setAgreements1(!agreements1)}
 										className='flex gap-[5px] items-start'
 									>
-										<div
-											className={`size-[12px] border-[0.5px] border-[#D9D9D9] bg-[#ffffff75] rounded-[3px] duration-300 ${
-												agreements1 ? 'bg-[#e93737]' : ''
-											}`}
-										></div>
+										<input
+											type='checkbox'
+											checked={agreements1}
+											className='w-[12px] h-[12px] border-[0.5px] border-[#D9D9D9] rounded-[3px]'
+										/>
 										<p className='w-[303px]'>
 											Я прочитал(а), ознакомился(лась) и согласен(на)
 											с Политикой конфиденциальности, Согласием на обработку
@@ -123,11 +123,11 @@ export const Banner = () => {
 										onClick={() => setAgreements2(!agreements2)}
 										className='flex gap-[5px] items-start'
 									>
-										<div
-											className={`size-[12px] border-[0.5px] border-[#D9D9D9] bg-[#ffffff75] rounded-[3px] duration-300 ${
-												agreements2 ? 'bg-[#e93737]' : ''
-											}`}
-										></div>
+										<input
+											type='checkbox'
+											checked={agreements2}
+											className='w-[12px] h-[12px] border-[0.5px] border-[#D9D9D9] rounded-[3px]'
+										/>
 										<p className='w-[303px]'>
 											Я достиг(ла) 18-летнего возраста
 										</p>
@@ -144,7 +144,7 @@ export const Banner = () => {
 					</div>
 				)}
 				{isFinish && (
-					<div className='px-[20px]'>
+					<div>
 						<p className='text-[18px] text-[#999999] font-bold leading-[22px] pt-[45px] pb-[37px] text-center'>
 							Заполните анкету
 						</p>

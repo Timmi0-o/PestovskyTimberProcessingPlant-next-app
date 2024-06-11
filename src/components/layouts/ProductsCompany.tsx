@@ -16,23 +16,25 @@ import { Section } from '../ui/Section'
 export const ProductsCompany = () => {
 	const [isCheck, setIsCheck] = useState<number>(0)
 	return (
-		<Section title='продукты компании'>
-			<div>
-				<div className='flex gap-[5px]'>
-					{variables.map((variable, i) => (
-						<div
-							onClick={() => setIsCheck(i)}
-							key={i}
-							className={`w-[100px] h-[30px] border-[2px] text-center ${
-								isCheck === i ? 'bg-[#999999]' : 'text-[#999999]'
-							}  border-[#999999] rounded-[5px]`}
-						>
-							<p>{variable}</p>
-						</div>
-					))}
+		<>
+			<Section title='продукты компании'>
+				<div>
+					<div className='flex gap-[5px]'>
+						{variables.map((variable, i) => (
+							<div
+								onClick={() => setIsCheck(i)}
+								key={i}
+								className={`w-[100px] h-[30px] border-[2px] text-center ${
+									isCheck === i ? 'bg-[#999999]' : 'text-[#999999]'
+								}  border-[#999999] rounded-[5px]`}
+							>
+								<p>{variable}</p>
+							</div>
+						))}
+					</div>
 				</div>
-			</div>
-			<div className='w-full'>
+			</Section>
+			<div className='w-full bg-[#212121]'>
 				<Swiper
 					effect={'coverflow'}
 					navigation={true}
@@ -51,7 +53,7 @@ export const ProductsCompany = () => {
 					))}
 				</Swiper>
 			</div>
-		</Section>
+		</>
 	)
 }
 

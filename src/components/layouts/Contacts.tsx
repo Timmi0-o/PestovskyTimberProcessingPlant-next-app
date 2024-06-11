@@ -60,19 +60,19 @@ export const Contacts = () => {
 					)}
 					<div className='flex gap-[30px] items-center mx-auto'>
 						<div className='relative w-[50px] h-[35px] '>
-							<Image src={'youTube.svg'} fill alt='youTube' />
+							<Image priority src={'youTube.svg'} fill alt='youTube' />
 						</div>
 						<div className='relative size-[42px] '>
-							<Image src={'vk.svg'} fill alt='vk' />
+							<Image priority src={'VK.svg'} fill alt='vk' />
 						</div>
 						<div className='relative size-[42px] '>
-							<Image src={'telegram.svg'} fill alt='telegram' />
+							<Image priority src={'telegram.svg'} fill alt='telegram' />
 						</div>
 					</div>
 				</div>
 			</Section>
 			<div className='relative w-full h-[223px]'>
-				<Image src={'/mapFutage.webp'} fill alt='mapFutage' />
+				<Image priority src={'/mapFutage.webp'} fill alt='mapFutage' />
 			</div>
 			<Section>
 				<div className='flex flex-col items-center gap-[30px] text-white text-[14px] font-bold text-center'>
@@ -93,7 +93,7 @@ export const Contacts = () => {
 						</Link>
 					</div>
 					<div className='relative w-[169px] h-[25px]'>
-						<Image src={'/LOGO Alpha.svg'} fill alt='logo' />
+						<Image priority src={'/LOGO Alpha.svg'} fill alt='logo' />
 					</div>
 				</div>
 			</Section>
