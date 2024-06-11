@@ -64,7 +64,7 @@ export const Banner = () => {
 
 			<div
 				style={{ overflowY: 'auto' }}
-				className={`fixed top-0 w-full h-[100vh] bg-[#262626] duration-300 ${modalMove} z-[100]`}
+				className={`fixed top-0 w-full h-[100%] bg-[#262626] duration-300 ${modalMove} z-[100]`}
 			>
 				<div className='w-full h-[44px] bg-[#1B1B1B] text-white'>
 					<div className='flex justify-end px-[20px]'>
