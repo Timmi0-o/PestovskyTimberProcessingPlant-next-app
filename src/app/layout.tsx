@@ -1,4 +1,4 @@
-import { Header } from '@/components/layouts/Header'
+import { Header } from '@/components/layouts/Header/Header'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.scss'
@@ -19,7 +19,7 @@ export default function RootLayout({
 		<html lang='en'>
 			<body className={inter.className}>
 				<Header />
-				{children}
+				<div className='mt-[40px]'>{children}</div>
 			</body>
 		</html>
 	)

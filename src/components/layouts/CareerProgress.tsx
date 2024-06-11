@@ -69,7 +69,7 @@ const build = [
 				</li>
 			</div>
 		),
-		img: '/oleg.png',
+		img: '/oleg.webp',
 	},
 	{
 		author: 'Даниил Басенков',
@@ -89,7 +89,7 @@ const build = [
 				</li>
 			</div>
 		),
-		img: '/maksim.png',
+		img: '/maksim.webp',
 	},
 	{
 		author: 'Мария Обухова',
@@ -109,6 +109,6 @@ const build = [
 				</li>
 			</div>
 		),
-		img: '/maria.png',
+		img: '/maria.webp',
 	},
 ]

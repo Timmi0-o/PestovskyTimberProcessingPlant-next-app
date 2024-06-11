@@ -9,7 +9,7 @@ import { ProductsCompany } from '@/components/layouts/ProductsCompany'
 
 export default function Home() {
 	return (
-		<>
+		<div id='main'>
 			<Banner />
 			<AboutAs />
 			<Divisions />
@@ -18,6 +18,6 @@ export default function Home() {
 			<CareerProgress />
 			<Campaigning />
 			<Contacts />
-		</>
+		</div>
 	)
 }

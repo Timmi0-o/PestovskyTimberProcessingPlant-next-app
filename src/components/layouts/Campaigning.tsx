@@ -12,7 +12,7 @@ export const Campaigning = () => {
 					fill
 					alt='CampaigningTheme'
 				/>
-				<div className='absolute w-full h-[567px] text-white px-[20px] mt-[45px]'>
+				<div className='flex flex-col items-center absolute w-full h-[567px] text-white px-[20px] mt-[45px]'>
 					<h1 className='text-[18px] font-bold leading-[24px] uppercase'>
 						Наши успехи — это заслуга замечательных людей, работающих в нашей
 						Команде. <br /> <br /> У Нас всегда есть вакансии для сильных

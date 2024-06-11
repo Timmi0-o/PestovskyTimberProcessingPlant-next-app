@@ -72,7 +72,7 @@ export const Contacts = () => {
 				</div>
 			</Section>
 			<div className='relative w-full h-[223px]'>
-				<Image src={'/mapFutage.png'} fill alt='mapFutage' />
+				<Image src={'/mapFutage.webp'} fill alt='mapFutage' />
 			</div>
 			<Section>
 				<div className='flex flex-col items-center gap-[30px] text-white text-[14px] font-bold text-center'>
@@ -93,7 +93,7 @@ export const Contacts = () => {
 						</Link>
 					</div>
 					<div className='relative w-[169px] h-[25px]'>
-						<Image src={'/LOGO Alpha.png'} fill alt='logo' />
+						<Image src={'/LOGO Alpha.svg'} fill alt='logo' />
 					</div>
 				</div>
 			</Section>
